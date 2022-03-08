@@ -1,1 +1,8 @@
 name: AdvanceShopGUI 
+main: ShopGUI\Xerus\main
+api: [4.0.0]
+version: 1.0.1
+description: "An Advance ShopGUI For Mcpe"
+dependency: Capital
+
+
