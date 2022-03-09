@@ -2,5 +2,7 @@
 build-by-default: true
 branches:
 - main
-projects: [AdvanceShopGUI]
+projects:
+    AdvanceShopGUI:
+       path: ""
 ...
