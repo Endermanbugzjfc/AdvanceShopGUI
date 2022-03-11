@@ -75,5 +75,4 @@ class main extends PluginBase implements Listener{
 
      }
 
-    }
 }
