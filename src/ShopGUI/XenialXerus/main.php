@@ -47,7 +47,7 @@ class main extends PluginBase implements Listener{
 
         return true;
     }
-     public function shopgui($player) {
+     public function shopgui($player) : void {
         $menu = InvMenu::create(InvMenu::TYPE_DOUBLE_CHEST);
         $meny->setListner(InvMenu::readonly());
         $menu->setName("§l§6Shop Menu");
