@@ -1,8 +1,20 @@
-name: AdvanceShopGUI 
-main: ShopGUI\Xerus\main
+name: AdvanceShopGUI
 api: [4.0.0]
-version: 1.0.1
-description: "An Advance ShopGUI For Mcpe"
+main: ShopGUI\XenialXerus\main
+version: 1.0.0
+author: XenialXerus
 dependency: Capital
+description: "Open Shop GUI For Ur Server"
+
+commands:
+  shopgui:
+    description: "Permission For Shop Gui"
+    usage: "/shopgui"
+    permission: shop.use.cmd
+
+permissions:
+  shop.use.cmd:
+    default: true
+
 
 
